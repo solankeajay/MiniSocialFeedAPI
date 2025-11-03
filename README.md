@@ -117,9 +117,9 @@ Authorization: Bearer <your_token_here>
 ```
 
 Notes:
-- Login (POST /api/login) returns the token.
-- Use POST /api/logout to revoke the current token.
-- Use GET /api/me to retrieve the authenticated user's details.
+- Login (POST /api/auth/login) returns the token.
+- Use POST /api/auth/logout to revoke the current token.
+- Use GET /api/auth/me to retrieve the authenticated user's details.
 
 ## API Endpoints
 
