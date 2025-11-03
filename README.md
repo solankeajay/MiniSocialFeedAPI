@@ -123,6 +123,20 @@ Notes:
 
 ## API Endpoints
 
+#### 🧾 Postman collection
+
+A Postman collection for the API is included in this project root.  
+Download or import it into Postman using the file below:
+
+- Local file: [MiniSocialFeedAPI.postman_collection.json](./MiniSocialFeedAPI.postman_collection.json)
+
+To import in Postman:
+1. Open Postman → File → Import.
+2. Choose "File" and select the JSON file above.
+3. Click "Import" — the collection and example requests will be available.
+4. Update Collation Variable value with your baseurl like (http://127.0.0.1:8000/api OR Other).
+
+
 All endpoints are prefixed with /api.
 
 ### Authentication
@@ -156,18 +170,6 @@ All endpoints are prefixed with /api.
 | POST   | /api/posts/{post_id}/dislike | Dislike a post                   | ✅   |
 
 Authentication-required endpoints return 401 when no valid token is provided. Successful POST requests typically return the created resource; validation errors return 422 with details.
-
-#### 🧾 Postman collection
-
-A Postman collection for the API is included in this project root.  
-Download or import it into Postman using the file below:
-
-- Local file: [MiniSocialFeedAPI.postman_collection.json](./MiniSocialFeedAPI.postman_collection.json)
-
-To import in Postman:
-1. Open Postman → File → Import.
-2. Choose "File" and select the JSON file above.
-3. Click "Import" — the collection and example requests will be available.
 
 
 
