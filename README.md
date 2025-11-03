@@ -9,8 +9,8 @@ It demonstrates clean architecture, database relationships, API validation, and 
 
 ### 1️⃣ Clone the Repository
 ```bash
-git clone https://github.com/yourusername/mini-social-feed-api.git
-cd mini-social-feed-api
+git clone https://github.com/solankeajay/MiniSocialFeedAPI.git
+cd MiniSocialFeedAPI
 ```
 
 ### 2️⃣ Install Dependencies
